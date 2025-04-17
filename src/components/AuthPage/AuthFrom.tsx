@@ -32,6 +32,11 @@ export default function AuthForm() {
   };
 
   return (
+    // <>
+    // <div className="text-center mb-8">
+    //   <h1 className="text-5xl font-bold text-blue-600 mb-2">EzMail</h1>
+    //   <p className="text-gray-600 text-2xl">Your modern email solution</p>
+    // </div>
     <div className="w-full max-w-md p-8 border rounded-xl shadow">
       <h2 className="text-2xl font-semibold mb-4 capitalize">{mode}</h2>
       <form onSubmit={handleAuth} className="flex flex-col gap-4">
@@ -65,5 +70,6 @@ export default function AuthForm() {
         </button>
       </p>
     </div>
+    // </>
   );
 }
